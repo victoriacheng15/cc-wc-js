@@ -2,7 +2,7 @@ import fs from "fs";
 
 export class WC {
 	constructor() {}
-	
+
 	fileReader(file) {
 		return fs.readFileSync(file, "utf8");
 	}
