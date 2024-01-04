@@ -9,16 +9,34 @@ This project implements a custom version of the Unix wc tool in JavaScript: ccwc
 
 This implementation provides a fun and practical way to explore JavaScript and its capabilities.
 
+## Getting Started
+
+1. Installation
+
+```
+git clone git@github.com:victoriacheng15/cc-write-your-wc-tool.git
+
+cd cc-write-your-wc-tool
+```
+
+2. Run the command
+
+```
+ccwc -m example.txt
+```
+
+Note: keep in mind, that the `ccwc` command only works in this directory.
+
 ## Usage
 
 This tool helps you analyze a file's size and content. You can use it to count the number of bytes, lines, words, and characters in a file.
 
 | Flag | Description                |
-| :----: | :-------------------------- |
-| -c   | print the byte count       |
-| -l   | print the lines count      |
-| -w   | print the words count      |
-| -m   | print the characters count |
+| :--: | :------------------------- |
+|  -c  | print the byte count       |
+|  -l  | print the lines count      |
+|  -w  | print the words count      |
+|  -m  | print the characters count |
 
 ### Basic Usage
 
@@ -29,7 +47,9 @@ There are two ways to use `ccwc`:
 ```bash
 ccwc [option] [file]
 ```
+
 example:
+
 ```bash
 ccwc -l example.txt
 ```
@@ -42,7 +62,7 @@ You can pip date directly to the tool using standard input:
 cat example.txt | ccwc -flag
 ```
 
-exmaple: 
+exmaple:
 
 ```bash
 cat example.txt | ccwc -l
@@ -53,6 +73,7 @@ cat example.txt | ccwc -l
 If you don't specify any flag, the tool will automatically print the byte, line, word counts
 
 example:
+
 ```bash
 ccwc example.txt
 
@@ -61,27 +82,11 @@ ccwc example.txt
 ```
 
 ### Summary
+
 - Use `flags` to specify which count you want to see.
 - Provide a `file path` as input.
 - Alternatively, pipe `data` directly using standard input.
 - By default, the tool shows `bytes`, `lines`, and `words` count.
-
-## Getting Started
-
-1. Installation
-
-```
-git clone git@github.com:victoriacheng15/cc-write-your-wc-tool.git
-
-cd cc-write-your-wc-tool
-```
-2. Run the command
-
-```
-ccwc -m example.txt
-```
-
-Note: keep in mind, that the `ccwc` command only works in this directory.
 
 ## Links
 
