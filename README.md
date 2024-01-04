@@ -66,7 +66,24 @@ ccwc example.txt
 - Alternatively, pipe `data` directly using standard input.
 - By default, the tool shows `bytes`, `lines`, and `words` count.
 
+## Getting Started
+
+1. Installation
+
+```
+git clone git@github.com:victoriacheng15/cc-write-your-wc-tool.git
+
+cd cc-write-your-wc-tool
+```
+2. Run the command
+
+```
+ccwc -m example.txt
+```
+
+Note: keep in mind, that the `ccwc` command only works in this directory.
+
 ## Links
 
-- [Coding Challenges Website](https://codingchallenges.fyi)
+- [Write Your Own wc Tool](https://codingchallenges.fyi/challenges/challenge-wc)
 - [Coding Challenges on Substack](https://codingchallenges.substack.com/)
